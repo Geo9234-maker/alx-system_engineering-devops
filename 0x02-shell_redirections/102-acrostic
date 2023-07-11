@@ -1,2 +1,2 @@
 #!/bin/bash
-tr "A,c" "Z,e"
+cut -c 1 | tr -d '\n' | sort
